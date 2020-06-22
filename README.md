@@ -161,11 +161,11 @@ El software Multisim™ integra simulación SPICE estándar en la industria con 
 
 1.Ingresar a la página oficial de Nacional Instruments en el siguiente link https://www.ni.com/es-cr/support/documentation/supplemental/14/multisim-templates-for-custom-arduino-shields.html
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img6.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img6.png)
 
 2.Al ingresar a la página buscar la sección de DESCARGAS y proceder a descargar el archivo .zip
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img7.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img7.png)
 
 3. Crear una nueva carpeta  que en este caso se llamará “Arduino Library” en la carpeta que se genera  al instalar el software Multisim donde se guardan los diseños de circuitos.
 
@@ -182,16 +182,16 @@ En este caso:
 3.5Arduino Library
 
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img8.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img8.png)
 
 4.Copiar y pegar el archivo .zip en la carpeta Arduino Library
 
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img9.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img9.png)
 
 5.Extraer el archivo .zip y se generaran  varias carpetas que contienen plantillas de tipos de Arduinos
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img10.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img10.png)
 
 6.Abrir Multisim 14.0
 
@@ -199,20 +199,20 @@ En este caso:
 
 7. En la parte superior izquierda dar click en FILE y OPEN.
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img12.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img12.png)
 
 8.Buscar la carpeta creada con anterioridad “Arduino Library”, click en abrir y se desplegará una serie de carpetas a escoger.
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img13.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img13.png)
 
 9.Las carpetas desplegadas contiene diferentes tipos de arduinos en este caso se escogió el ARDUINO UNO, click en abrir.
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img14.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img14.png)
 
 10. Finalmente se a generado un ARDUINO UNO en Multisim.
 
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img15.jpg)
-![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img16.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img15.png)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img16.png)
 
 **BIBLIOGRAFÍA**
 
