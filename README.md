@@ -33,7 +33,7 @@ Arduino UNO es una placa basada en el microcontrolador ATmega328P. Tiene 14 pine
 
 **ESPECIFICACIONES ARDUINO UNO**
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-INVESTIGACION-1.0/blob/master/img/img1.png)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img1.jpg)
 
 **1.Botón de reset:** Sirve para inicializar nuevamente el programa cargado en el microcontrolador de la placa. Cuando deje de responder el Arduino Uno es el botón de encendido o apagado para que vuelva a restablecerse. 
 
@@ -98,7 +98,7 @@ La Uno tiene 6 entradas analógicas, etiquetadas de A0 a A5, cada una de las cua
 
 **DIAGRAMA PINOUT ARDUINO UNO**
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-INVESTIGACION-1.0/blob/master/img/img1.png)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img2.jpg)
 
 **ARDUINO UNO PINOUT – FUENTE DE ALIMENTACIÓN **
 
@@ -110,7 +110,7 @@ Hay 3 formas de alimentar el Arduino Uno:
 
 •	Cable USB :cuando se conecta a la computadora, proporciona 5 voltios a 500mA.
 
-![](https://github.com/HidalgoAlvaradoCruz/TRABAJO-INVESTIGACION-1.0/blob/master/img/img1.png)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img3.jpg)
 
 Hay un diodo de protección de polaridad que se conecta entre el positivo de la clavija del barril y la clavija VIN, con una capacidad nominal de 1 amperio.
 
@@ -128,5 +128,94 @@ Las clavijas GND se utilizan para cerrar el circuito eléctrico y proporcionar u
 **ARDUINO UNO PINOUT – ANALOG IN**
 
  La placa Arduino Uno tiene 6 pines analógicos, que utilizan ADC (Convertidor de Analógico a Digital). Estos pines sirven como entradas analógicas, pero también pueden funcionar como entradas o salidas digitales
+ 
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img4.jpg)
+
+**Conversión de analógico a digital**
+
+ ADC son las siglas de Analog to Digital Converter. El ADC es un circuito electrónico utilizado para convertir señales analógicas en señales digitales. Esta representación digital de señales analógicas permite al procesador, que es un dispositivo digital, medir la señal analógica y utilizarla durante su funcionamiento. 
+Los pines Arduino A0-A5 son capaces de leer tensiones analógicas. En Arduino el ADC tiene una resolución de 10 bits, lo que significa que puede representar una tensión analógica de 1.024 niveles digitales. El ADC convierte el voltaje en bits que el microprocesador puede entender.
+
+**ARDUINO UNO PINOUT – DIGITAL PINS**
+
+•	Los pines 0-13 del Arduino Uno sirven como pines de entrada/salida digital.
+
+•	El pin 13 del Arduino Uno está conectado al LED incorporado. 
+
+•	En el Arduino Uno – los pines 3,5,6,9,10,11 tienen capacidad PWM.
+ Es importante tener en cuenta: 
+ 
+•	Cada clavija puede proporcionar hasta 40 mA máx. Pero la corriente recomendada es de 20 mA. 
+
+•	La corriente máxima absoluta proporcionada de todos los pines juntos es de 200 mA.
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img5.jpg)
+
+**MULTISIM 14.0**
+
+Multisim™ es un software estándar en industria para diseño de circuitos y simulación SPICE para electrónica de potencia, analógica y digital en la educación y la investigación.
+
+El software Multisim™ integra simulación SPICE estándar en la industria con un entorno esquemático interactivo para visualizar y analizar al instante el comportamiento de los circuitos electrónicos. Su interfaz intuitiva ayuda a los profesores a reforzar la teoría de circuitos y a mejorar la retención de la teoría en todo el plan de estudios de ingeniería. Al añadir simulación potente de circuitos y análisis al flujo de diseño, Multisim™ ayuda a los investigadores y diseñadores a reducir las iteraciones de prototipos de tarjeta de circuito impreso (PCB) y a ahorrar los costos del desarrollo.
+
+**MANUAL DE USUARIO**
+
+1.Ingresar a la página oficial de Nacional Instruments en el siguiente link https://www.ni.com/es-cr/support/documentation/supplemental/14/multisim-templates-for-custom-arduino-shields.html
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img6.jpg)
+
+2.Al ingresar a la página buscar la sección de DESCARGAS y proceder a descargar el archivo .zip
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img7.jpg)
+
+3. Crear una nueva carpeta  que en este caso se llamará “Arduino Library” en la carpeta que se genera  al instalar el software Multisim donde se guardan los diseños de circuitos.
+
+En este caso:
+
+3.1Disco (C)
+
+3.2Archivos de programa (x86)
+
+3.3National Instruments
+
+3.4Circuit Design Suite 14.0
+
+3.5Arduino Library
 
 
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img8.jpg)
+
+4.Copiar y pegar el archivo .zip en la carpeta Arduino Library
+
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img9.jpg)
+
+5.Extraer el archivo .zip y se generaran  varias carpetas que contienen plantillas de tipos de Arduinos
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img10.jpg)
+
+6.Abrir Multisim 14.0
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img11.jpg)
+
+7. En la parte superior izquierda dar click en FILE y OPEN.
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img12.jpg)
+
+8.Buscar la carpeta creada con anterioridad “Arduino Library”, click en abrir y se desplegará una serie de carpetas a escoger.
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img13.jpg)
+
+9.Las carpetas desplegadas contiene diferentes tipos de arduinos en este caso se escogió el ARDUINO UNO, click en abrir.
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img14.jpg)
+
+10. Finalmente se a generado un ARDUINO UNO en Multisim.
+
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img15.jpg)
+![](https://github.com/EvelinHidalgo/ARDUINO-UNO/blob/master/img/img16.jpg)
+
+**BIBLIOGRAFÍA**
+
+[1] Descubre Arduino.com.(2014). ARDUINO UNO, PARTES, COMPONENTES, PARA QUÉ SIRVE Y DONDE COMPRAR.Recuperado de:https://descubrearduino.com/arduino-uno/
+
+[2] National Instruments.(2020).¿Qué es Multisim™?.Recuperado de: https://www.ni.com/es-cr/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-multisim.html#:~:text=Multisim%E2%84%A2%20es%20un%20software,la%20educaci%C3%B3n%20y%20la%20investigaci%C3%B3n.
